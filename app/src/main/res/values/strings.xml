@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">converter</string>
+    <string-array name="contry_array">
+        <item>usa</item>
+        <item>india</item>
+        <item>austrilia</item>
+        <item>nepal</item>
+        <item>dubai</item>
+        <item>uk</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+</resources>
