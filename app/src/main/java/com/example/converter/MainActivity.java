@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -29,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
         convert=findViewById(R.id.convert);
         edit=findViewById(R.id.edit);
         editTv=findViewById(R.id.editTv);
+        getWindow().setFlags(
+                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
+                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
+        );
 
         getSupportActionBar().hide();
 
